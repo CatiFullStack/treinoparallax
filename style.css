@@ -1,0 +1,61 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000;
+}
+
+header {
+    background: #fff;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.capa {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.capa img {
+    width: 1000px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+a {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: #fff;
+    color: #000;
+}
+
+.capa:hover {
+    background: url("img/fundohover.jpg");
+}
+
+
